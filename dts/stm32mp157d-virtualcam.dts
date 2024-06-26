@@ -1,0 +1,9 @@
+/dts-v1/;
+/plugin/;
+
+&{/} {
+    sensor: sensor@00000000 {
+        compatible = "virtual,sensor";
+        status = "okay";
+    };
+};
